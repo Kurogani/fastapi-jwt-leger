@@ -29,7 +29,7 @@ def register(auth_details: AuthDetails):
         'username': auth_details.username,
         'password': hashed_password    
     })
-    return "Usuario registrado con exito." + users['username']
+    return "Usuario registrado con exito."
 
 
 @app.post('/login')
